@@ -34,3 +34,8 @@ For more information about using Ruby on Heroku, see these Dev Center articles:
 - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
 
 # webhocksample
+
+# How to resolve error of bundle install
+```
+$ ARCHFLAGS="-arch x86_64" bundle install
+```
